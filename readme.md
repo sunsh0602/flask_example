@@ -57,3 +57,11 @@ DB_PRODUCT_NAME='toy_project'
 flask db init
 flask db migrate
 flask db upgrade
+
+
+pip install flask-jwt-extended
+pip install flask-bcrypt
+pip install redis
+
+#ubuntu에서 redis server 설치
+brew install redis
